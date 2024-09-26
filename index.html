@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Website</title>
+  <link rel="shortcut icon" href="img logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+</head>
+  <style>
+
+
+body{
+    font-family:'Poppins'
+}
+    #bg-image {
+    background-image: url("shah.jpg"); 
+    background-size: cover;
+    height: 800px;
+    width:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+   margin:0px;
+    align-items: center;
+    justify-content: center;
+   
+}
+   
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    color: white;
+    padding: 20px;
+    height: 100%;
+    width: 100%; /* Ensure the overlay covers the entire section */
+}
+.navbar-custom {
+
+background-color: #747575d5; /* Change to your desired background color */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+.navbar-brand {
+font-weight: bold;
+color: #505cfd /* Change to your desired brand color */
+}
+.nav-link {
+color: #505cfd; /* Default link color */
+margin-right: 15px;
+}
+.nav-link:hover {
+color: #505cfd; /* Hover color */
+}
+.btn-custom {
+background-color: #50d2fdbf;
+color: #ffffff;
+border-radius: 30px;
+padding: 8px 20px;
+transition: background-color 0.3s;
+}
+.btn-custom:hover {
+background-color: #505cfd;
+color: #ffffff;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#hero-content h1 {
+font-size: 25px;
+    font-weight: bold;
+}
+.hero-content .highlight {
+    color: #505cfd;
+    
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: #505cfd;
+    color: rgb(34, 12, 105);
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+.skills-section {
+            padding: 50px 0;
+           
+        }
+        .skills-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            
+        }
+        .progress {
+         
+            height: 20px;
+            background-color: transparent;
+            border: 2px solid #505cfd;
+            border-radius: 10px;
+            
+        }
+        .progress-bar {
+            background-color: #505cfd;
+            line-height: 16px;
+            font-size: 0.875rem;
+            color: #fff;
+            
+        }
+        .load-more {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .btn-download {
+    background-color:#505cfd;
+    color:#f4f1f6;
+    border: 2px solid#505cfd;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.btn-download:hover {
+    background-color: #fff;
+    color: #505cfd;
+        
+    }
+#profile-info h1{
+    margin-top: 2.5rem;
+    font-size: 2rem; 
+}
+#profile-info h3{
+    font-size: 1.2rem; 
+   
+}
+.skills-section {
+            padding: 50px 0;
+           
+        }
+        .skills-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            
+        }
+        .progress {
+         
+            height: 20px;
+            background-color: transparent;
+            border: 2px solid #505cfd;
+            border-radius: 10px;
+            
+        }
+        .progress-bar {
+            background-color: #505cfd;
+            line-height: 16px;
+            font-size: 0.875rem;
+            color: #fff;
+            
+        }
+        .skill-item {
+            margin-bottom: 4px;
+        }
+        .timeline {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px; /* Align with the center of the markers */
+    width: 2px;
+    background-color: #ddd; /* Color of the vertical line */
+    z-index: 0; /* Ensure it stays behind the markers */
+}
+#edbgorange {
+
+    background: #3d77ff;
+    width: 30%;
+    height: 30px;
+    border-radius: 100px 0px 150px 100px;
+}
+#edbggray {
+        background: #3d77ff9e;
+        width: 30%;
+        height: 30px;
+        border-radius: 100px 0px 150px 100px;
+    }
+   
+    #edbGray {
+    background-color: #f4f5f8;
+    padding: 10px;
+    border-radius: 5px;
+}
+.timeline-marker-container {
+    position: relative;
+    padding-left: 25px;
+}
+
+.timeline-marker {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 1;
+}
+
+.timeline-year {
+    margin-top: 20px;
+    padding: 4px 9px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.timeline-content {
+    position: relative;
+    background-color: #f8f9fa;
+    
+}
+
+.timeline-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.timeline-subtitle {
+  font-size: 1.15rem;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.timeline-description {
+    font-size: 17px;
+}
+
+.badge-pill{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.icon-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #333;
+    
+
+}
+
+
+
+.service-item h5 {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.25rem;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666666;
+   
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+
+.badge-pill {
+    border-radius: 50px;
+}
+
+.section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .btn-custom2 {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            color: white;
+            background-color: #505cfd;
+            border: none;
+        }
+        .counter-wrapper{
+            background: url(5172658.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 1.5rem;
+            padding: 10rem 9%;
+            margin-top: 5rem;
+            position: relative;
+        }
+        .counter-wrapper::before{
+            position: absolute;
+            content: '';
+            content: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 1;
+        }
+        .counter{
+           text-align: center;   
+           color: #ddd;
+           z-index: 2;
+           position: relative;
+        }
+        .counter::before{
+            position: absolute;
+            content: '';
+            bottom: -2rem;
+            left: 50%;
+            width: 20%;
+            height: .2rem;
+            background: #4DB7FE;
+            border-radius: .5rem;
+            -webkit-border-radius: .5rem;
+            -moz-border-radius: .5rem;
+            -ms-border-radius: .5rem;
+            -o-border-radius: .5rem;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+        }
+        .counter .count{
+            font-size: 1.30rem;
+            margin-bottom: 1rem;    
+        }
+        .counter p{
+            font-size: 1.4rem;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 400;
+        }
+   
+
+        #filter-buttons button {
+  border-radius: 3px;
+  background: #fff;
+  border-color: transparent;
+}
+
+#filter-buttons button:hover {
+  background: #ddd;
+}
+
+#filter-buttons button.active {
+  color: #fff;
+  background: #6c757d;
+}
+.filter-btn-group .btn {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-btn-group .active {
+      background-color: #007bff;
+      color: white;
+    }
+    /* Style to make all images uniform */
+    .gallery-item {
+      margin-bottom: 15px;
+    }
+
+    .gallery-item img {
+        
+        margin-left: 2%;
+        margin-right:2%;
+      width: 95%;
+      height: 200px; /* Fixed height for uniformity */
+      object-fit: cover; /* Ensures the image fits nicely within the container */
+      border-radius: 10px;
+    }
+
+    /* Filter buttons styling */
+
+
+    /* Responsive design adjustments */
+    
+    
+        .load-more {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        #iconbg {
+            background-color: #0d0d27;
+     padding: 80px;
+            margin-top: 40px;
+    
+      display: flex;
+      justify-content: center;
+    }
+
+    #iconsection {
+     
+    font-size: 60px;
+    padding: 40px;
+    border-radius: 100%;
+    color: white;
+    }
+
+
+        
+       .section-title2{
+        font-size: 2rem;
+        font-weight: bold;
+       }
+
+        .contact-section iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+       
+    font-size: 25px;
+}
+        
+
+        .contact-form {
+            
+            margin-top: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+        }
+
+    #abc{
+        background-color: #1a1a2e;
+            color: #dcdde1;
+            font-family: 'Arial', sans-serif;
+    }
+        .footer {
+      
+            padding: 40px 0;
+            background-color: #0d0d27;
+        }
+        .footer h1{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .footer h5 {
+            font-size: 19px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .footer p, .footer a {
+            color: #dcdde1;
+            font-size: 16px;
+        }
+        .footer a:hover {
+            color: #505cfd;
+            text-decoration: none;
+        }
+        .footer .subscribe-btn {
+            background-color: #505cfd;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+        }
+        .footer .subscribe-btn:hover {
+            background-color: #505cfd;
+        }
+        .footer .divider {
+            border-bottom: 1px dashed #dcdde1;
+            margin-bottom: 15px;
+        }
+        .footer .credit {
+            margin-top: 0;
+    margin-bottom: 1rem;
+
+            font-size: 16px;
+        }
+        .footer .credit a {
+            color: #505cfd;
+        }
+</style>
+<body>
+
+    <section id="bg-image" class=" p-0">
+        
+
+  <!-- Navbar -->
+   <br>
+  
+    
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom bg-trasnparent p-3  ">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">M-Fatima</a>
+      
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <!-- Home Link -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+          </li>
+          <!-- About Link -->
+          <li class="nav-item">
+            <a class="nav-link " href="#About">About</a>
+          </li>
+          <!-- Services Dropdown -->
+          <li class="nav-item">
+            <a class="nav-link " href="#Portfolio">Portfolio</a>
+          </li>
+          <!-- Contact Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Call-to-Action Button -->
+        <a href="#" class="btn btn-custom ms-lg-3 bg-primary">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+<!-- navbar end -->
+<br>
+<br>
+<br>
+<br>
+<!-- section open code open -->
+  <section class="hero-section ">
+    <div class="container">
+        <div class="hero-content text-light text-center ">
+           
+            <h4 class="mb-0">Welcome</h4>
+            <h1>I'm <span class="highlight text-primary">Mehjabeen</span> Fatima</h1>
+            <br>
+            <a href="#" class="btn btn-custom bg-primary">UI/UX & Web Designer</a>
+        </div>
+    </div>
+</section>
+</section>
+<br>
+<br>
+<br>
+<br>
+          
+
+  <!-- section one code close -->
+          
+
+<!-- section two code open -->
+
+  <div id="About" class="container">
+    <div id="aboutmargintop" class="row">
+      <div id="square" class="col-lg-4 col-md-4 col-sm-4">
+        <img class="w-100" src="mn.jpg" alt="">
+      </div>
+<br>
+      <div class="col-lg-1 col-md-1 col-sm-1"></div>
+<br>
+<br>
+      <div id="mediaQ" class="col-lg-7 col-md-7 col-sm-7">
+        <h1 id="profile-info margin-top-2.5rem">Mehjabeen Fatima</h1>
+        <h5><span class="text-primary">Graphics Designer & Web Designer</span></h5>
+        <p class="text-muted">We are a passionate team of graphic and web designers with a knack for turning ideas into stunning realities. With a blend of creativity, technical expertise, and a keen eye for detail, we specialize in crafting custom designs that not only look great but also drive results.</p>
+        <div class="ml-3">
+        <ul id="bulletorange">
+          <li><b>From:</b> Pakistan</li>
+          <li><b>Live In:</b> Pakistan,Sindh</li>
+          <li><b>Age:</b> 21</li>
+          <li><b>Gender:</b> Male</li>
+        </ul>
+        <a href="#" class="btn-download bg-primary">Download CV</a>
+      </div>
+      </div>
+    </div>
+   </div>
+
+
+<!-- section two code close -->
+  
+  <br>
+  <br>
+  <br>
+<!-- section three code open -->
+
+  <div class="container-fluid text-center bg-light" >
+    <div class="col-lg-12 col-md-12 col-sm-12 " ></div>
+        <span  class="navbar-brand mb-0 h1 p-5"><h1>My Skills</h1></span><HR><span>
+          
+        <section class="skills-section">
+<div class="container text-left">
+    <div class="row ">
+        <div class=" col-md-6">
+            <h4 >Coding skills</h4>
+            <div class="skill-item">
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 86%;">86%</div>
+                </div>
+            </div>
+            <div class="skill-item ">
+                <p>PHP</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>HTML + CSS</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;">100%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Python</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <div class=" col-md-6 mt-5">
+            <h4>Design Skills</h4>
+            <div class="skill-item">
+                <p>UI / UX Design</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 92%;">92%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Web Design</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 99%;">99%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p>Logo Design</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 79%;">79%</div>
+                </div>
+                <br>
+                <br>
+                <br>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</span>
+</div>
+</section>
+
+<!-- section three code close -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- section four code open -->
+        
+        <div id="aboutmargintop" class="container mediaQleft">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <h1 id="heading">Education</h1>
+          
+                <ul id="bulletorange">
+                  <li><div id="edbgorange"><p class="text-light ml-3 pt-1"><b>2020</b></p></div></li>
+                  <div class="mt-3" id="edbGray">
+                   <h5>Matriculation</h5>
+                    <p>
+                     <b><span id="colorheading ">Companion Grammer high School </span></b><br>
+                     Matriculation refers to the completion of the 10th grade or secondary school examination, marking the end of basic education in many countries.</p>
+                  </div>
+          
+                  <li><div id="edbggray"><p class="text-light ml-3 mt-4 pt-1"><b>2022</b></p></div></li>
+                  <div class="mt-3" id="edbGray">
+                   <h5>Intermediate</h5>
+                    <p>
+                     <b> <span id="colorheading">GOVT: Girls Degree College Hyderabad</span></b><br>
+                     Intermediate refers to the completion of 12th grade or higher secondary education, serving as a bridge between secondary education and higher studies.</p>
+                  </div>
+          
+                  <li><div id="edbggray"><p class="text-light ml-3 mt-4 pt-1"><b>2024-Continue</b></p></div></li>
+                  <div class="mt-3" id="edbGray">
+                   <h5>Graduate</h5>
+                    <p>
+                     <b> <span id="colorheading">Allama Iqbal Open University</span></b><br>
+                      A graduate is an individual who has successfully completed a bachelor's degree or an equivalent undergraduate program from a college or university.</p>
+                  </div>
+                </ul>
+              
+          
+              </div>
+              <div id="mediaQ" class="col-lg-6 col-md-6 col-sm-6">
+                <h1 id="heading">Experience</h1>
+          
+                <ul id="bulletorange">
+                  <li><div id="edbgorange"><p class="text-light ml-3 pt-1"><b>2022</b></p></div></li>
+                  <div class="mt-3" id="edbGray">
+                   <h5>Daraz Seller</h5>
+                    <p>
+                     <b> <span id="colorheading">Computer Operator</span></b><br>
+                     with 1 years of experience in Mother Montessori Cambridge School as a computer .with 1 years of experience in Mother Montessori Cambridge School as a computer Opertaor.</p>
+                  </div>
+          
+                  <li><div id="edbggray"><p class="text-light ml-3 mt-4 pt-1"><b>2021-continue</b></p></div></li>
+                  <div class="mt-3" id="edbGray">
+                   <h5>Wordpress Developer</h5>
+                    <p>
+                     <b> <span id="colorheading">Freelancer</span></b><br>
+                     A WordPress developer with 1 years of experience excels in building and customizing WordPress sites with expertise in themes, plugins, and coding.</p>
+                  </div>
+          
+                  <li ><div id="edbggray"><p class="text-light ml-3 mt-4 pt-1"><b>2016-continue</b></p></div></li>
+                  <div class="mt-3" id="edbGray">
+                   <h5>Graphic Designer</h5>
+                    <p>
+                     <b> <span id="colorheading">Freelancer</span></b><br>
+                     With 2 years of experience in graphic design, this professional excels in creating visually compelling designs across various media, including digital and print.</p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+<!-- section four code close -->
+          <br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- section five code open -->
+
+<div class="container text-center my-5 p-0">
+  <div class="row">
+      <div class="col-12">
+          <span class="badge badge-pill badge-light px-3 py-2 bg-primary text-white">Service</span>
+          <h1 class="my-4">What can i do?</h1>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-item">
+              <div class="icon-container bg-light mx-auto mb-3">
+                  <i class="fas fa-paint-brush "></i>
+              </div>
+              <h5 class="text-primary">Web Design</h5>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-item">
+              <div class="icon-container bg-light mx-auto mb-3">
+                  <i class="fas fa-search"></i>
+              </div>
+              <h5 class="text-primary">SEO</h5>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-item">
+              <div class="icon-container bg-light mx-auto mb-3">
+                  <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <h5 class="text-primary">UI/UX Design</h5>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+          <div class="service-item">
+              <div class="icon-container bg-light mx-auto mb-3">
+                  <i class="fas fa-code"></i>
+              </div>
+              <h5 class="text-primary">Web Development</h5>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+<!-- section five code close -->
+<br>
+<br>
+
+ <!-- section sixth code open -->
+<div class="counter-wrapper">
+    <div class="counter">
+        <h1 class="count" data-target="1254">0</h1>
+        <p>Client</p>
+    </div>
+    <div class="counter">
+        <h1 class="count" data-target="12168">0</h1>
+        <p>Projects Complete</p>
+    </div>
+    <div class="counter">
+        <h1 class="count" data-target="2172">0</h1>
+        <p>Project Ongoing</p>
+    </div>
+    <div class="counter">
+        <h1 class="count" data-target="732">0</h1>
+        <p>Client Satisfaction</p>
+    </div>
+</div>
+
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
+
+.counter-wrapper{
+background: url(5172658.jpg);
+background-repeat: no-repeat;
+background-size: center;
+background-position: center;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-column-gap: 1.5rem;
+padding: 10rem 9%;
+margin-top: 5rem;
+position: relative;
+}
+.counter-wrapper::before{
+position: absolute;
+content: '';
+content: 0;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+z-index: 1;
+}
+.counter{
+text-align: center;   
+color: #ddd;
+z-index: 2;
+position: relative;
+}
+.counter::before{
+position: absolute;
+content: '';
+bottom: -2rem;
+left: 50%;
+width: 20%;
+height: .2rem;
+background: #4DB7FE;
+border-radius: .5rem;
+-webkit-border-radius: .5rem;
+-moz-border-radius: .5rem;
+-ms-border-radius: .5rem;
+-o-border-radius: .5rem;
+transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+}
+.counter .count{
+font-size: 3rem;
+margin-bottom: 1rem;    
+}
+.counter p{
+font-size: 1.4rem;
+font-family:'Times New Roman', Times, serif, serif;
+font-weight: 500;
+}
+
+
+@media (max-width: 991px) {
+
+}
+@media (max-width: 768px) {
+.counter-wrapper{
+grid-template-columns: repeat(2, 1fr);
+grid-row-gap: 8rem;
+}
+}
+@media (max-width: 450px) {
+
+.counter-wrapper{
+grid-template-columns: 1fr;
+}
+}
+  </style>
+
+<script src="main.js"></script>
+<script>
+    const counts = document.querySelectorAll('.count')
+const speed = 97
+
+counts.forEach((counter) => {
+function upDate(){
+    const target = Number(counter.getAttribute('data-target'))
+    const count = Number(counter.innerText)
+    const inc = target / speed        
+    if(count < target){
+        counter.innerText = Math.floor(inc + count) 
+        setTimeout(upDate, 15)
+    }else{
+        counter.innerText = target
+    }
+}
+upDate()
+})
+</script>
+<!-- scetion sixth code close -->
+
+    <!-- section seventh code open -->
+<div class="container text-center my-5 p-0">
+    <div class="row">
+        <div class="col-12">
+            <a href="#" class="btn btn-custom py-1 px-3 bg-primary mx-auto">Portfolio</a>
+           <br>
+           <br>
+        </div>
+   
+          
+            <!-- Filter buttons -->
+            <div class="text-center filter-btn-group my-3 mx-auto">
+              <button style="border-radius: 40px;"  class="btn btn-outline-primary active" onclick="filterGallery('all')"> All </button>
+              <button style="border-radius: 40px;"  class="btn btn-outline-dark" onclick="filterGallery('Apps')"> Apps </button>
+              <button style="border-radius: 40px;"  class="btn btn-outline-dark" onclick="filterGallery('Graphics')"> Graphics </button>
+              <button style="border-radius: 40px;"  class="btn btn-outline-dark" onclick="filterGallery('WORK')"> WORK </button>
+            </div>
+    </div>
+    </div>
+    </div>
+
+          <!-- Filterable Images / Cards Section -->
+          <div id="About" class="container p-0 mx-auto"> <div class="row">
+            
+            <div class="col-lg-3 col-md-4 col-sm-6 gallery-item Apps">
+              <img src="9085478.jpg" alt="Apps 1">
+              <h5 class="text-center text-primary">Mountains</h5>
+              <p class="text-center">Lorem ipsum dolor..</p>
+            </div>
+        
+       
+            <div class="col-lg-3 col-md-4 col-sm-6 gallery-item Graphics">
+              <img src="kl.jpg" alt="Graphics 1">
+              <h5 class="text-center text-primary">Lights</h5>
+              <p class="text-center">Lorem ipsum dolor..</p>
+            </div>
+        
+            
+            <div class="col-lg-3 col-md-4 col-sm-6 gallery-item WORK">
+              <img src="9085478.jpg" alt="WORK">
+              <h5 class="text-center text-primary">Nature</h5>
+              <p class="text-center">Lorem ipsum dolor..</p>
+            </div>
+        
+
+            <div class="col-lg-3 col-md-4 col-sm-6 gallery-item nature">
+              <img src="kl.jpg" alt="Retro">
+              <h5 class="text-center text-primary">Retro</h5>
+              <p class="text-center">Lorem ipsum dolor..</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 gallery-item nature">
+                <img src="5895227.jpg" alt="Retro">
+                <h5 class="text-center text-primary">Retro</h5>
+                <p class="text-center">Lorem ipsum dolor..</p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 gallery-item nature">
+                <img src="9085478.jpg" alt="Nature 1">
+                <h5 class="text-center text-primary">Mountains</h5>
+                <p class="text-center">Lorem ipsum dolor..</p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 gallery-item nature">
+                <img src="kl.jpg" alt="Nature 1">
+                <h5 class="text-center text-primary">Mountains</h5>
+                <p class="text-center ">Lorem ipsum dolor..</p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 gallery-item nature">
+                <img src="8826623.jpg" alt="Nature 1">
+                <h5 class="text-center text-primary">Mountains</h5>
+                <p class="text-center">Lorem ipsum dolor..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+        <script>
+            // Select relevant HTML elements
+            function filterGallery(category) {
+    var items = document.getElementsByClassName("gallery-item");
+    if (category === "all") {
+      for (var i = 0; i < items.length; i++) {
+        items[i].style.display = "block"; // Show all items
+      }
+    } else {
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].classList.contains(category)) {
+          items[i].style.display = "block"; // Show items that match the category
+        } else {
+          items[i].style.display = "none"; // Hide items that don't match
+        }
+      }
+    }
+
+    // Remove 'active' class from all buttons
+    var btns = document.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].classList.remove("active");
+    }
+
+    // Add 'active' class to the clicked button
+    event.currentTarget.classList.add("active");
+  }
+
+  // Initialize by showing all items
+  filterGallery('all');
+        </script>
+           
+            <a href="#" class="btn btn-primary load-more">Load More</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- section seventh code close -->
+<br>
+<br>
+<br>
+        <!-- section eight code open -->
+<div id="iconbg" class="container-fluid ">
+    <div id="aboutmargintop" class="container">
+      <div class="row text-center ">
+
+        <div id="iconsectiondown" class="col-lg-3 col-md-3 col-sm-3">
+          <i id="iconsection" class="fa-solid fa-globe" aria-hidden="true"></i>
+        </div>
+
+        <div id="iconsectiondown" class="col-lg-3 col-md-3 col-sm-3">
+          <i id="iconsection" class="fa-solid fa-rocket" aria-hidden="true"></i>
+        </div>
+
+        <div id="iconsectiondown" class="col-lg-3 col-md-3 col-sm-3">
+            <i id="iconsection" class="fa-solid fa-fingerprint" aria-hidden="true"></i>
+        </div>
+
+        <div id="iconsectiondown" class="col-lg-3 col-md-3 col-sm-3">
+            <i id="iconsection" class="fa-solid fa-robot" aria-hidden="true"></i>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 mt-3">
+          <i id="iconsection" class="fa-solid fa-ship" aria-hidden="true"></i>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 mt-3">
+          <i id="iconsection" class="fa-solid fa-robot" aria-hidden="true"></i>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 mt-3 ">
+            <i id="iconsection" class="fa-solid fa-globe" aria-hidden="true"></i>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 mt-3">
+          <i id="iconsection" class="fa-solid fa-fingerprint" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div> 
+  </div>
+<!-- scetion eight code close -->
+<br>
+<br>
+    <!-- section ninth code open -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-center m-auto">
+			<h2 class="text-center">Testimonials</h2> 
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel -->
+				<div class="carousel-inner ">
+					<div class="item carousel-item active">
+						<div class="img-box text-center"><img src="https://i.ibb.co/d5DY64w/img1.jpg" alt=""></div><br>
+						<p class="testimonial text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+						<p class="overview text-center"><b>Jennifer Smith</b>, Office Worker</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box text-center"><img src="https://i.ibb.co/5FF1vqz/img2.jpg" alt=""></div><br>
+						<p class="testimonial text-center ">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+						<p class="overview text-center"><b>Dauglas McNun</b>, Financial Advisor</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box text-center"><img src="https://i.ibb.co/Trv7hDv/img3.jpg" alt=""></div><br>
+						<p class="testimonial text-center">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+						<p class="overview text-center"><b>Hellen Wright</b>, Athelete</p>
+					</div>
+				</div>
+				<!-- Carousel Controls -->
+				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+      
+<!-- Add more carousel items for additional testimonials if needed -->
+             <br>
+        </div>
+<!-- section ninth code close -->
+        <br>
+<br>
+    <!-- Contact Section -->
+  
+    <section class="contact-section text-center  p-0">
+        <br>
+         <div class="container-fluid"> <a href="#" class="btn btn-custom py-2 px-3" >Contact</a><br><br>
+            <h2 class="section-title2">Get in Touch</h2>
+            <div class="row">
+                <div class="col-md-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1802.567115740003!2d68.361183543961!3d25.366817374600902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c705c3fea8583%3A0xe613bf128b88647e!2sLatifabad%20Unit%20No.%208%20Latifabad%20Unit%208%20Latifabad%2C%20Hyderabad%2C%20Sindh%2071000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1727093870856!5m2!1sen!2s"  allowfullscreen></iframe>
+                </div>
+                
+
+                <div id="mediadown" class="col-lg-4 col-md-4 col-sm-4 ">
+                    <form action="https://formspree.io/f/mjkbnvbj" method="POST"> 
+                    <div class="form-group">
+                          <input name="Your Name" class="form-control" required placeholder="Your Name" type="text">
+                      </div>
+            
+                      <div class="form-group">
+                        <input name="Email address" class="form-control" required placeholder="Email address" type="email">
+                    </div>
+            
+                    <div class="form-group">
+                      <input name="Subject" class="form-control" placeholder="Subject" type="text">
+                  </div>
+                        <div class="mb-3">
+                          
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom2 btn-outline-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+    </section>
+
+        <!-- contact section close -->
+    <br>
+    <br>
+    <br>
+
+    <!-- footer section -->
+<section id="abc">
+    
+    <footer class="footer text-md-start p-3">
+<h1 class="text-center">Virtual folio</h1>
+<br>
+<br>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-4 mb-3 text-left">
+                    <h5>Where to find me</h5>
+                    <div class="divider"></div>
+                    <p>house: 154 Block F<br>Unit 08, Latifabad hyd.pk</p>
+                </div>
+                <div class="col-md-4 mb-3 text-left">
+                    <h5>Follow me</h5>
+                    <div class="divider"></div>
+                    <p>Instagram<br>Facebook<br>Twitter<br>Youtube</p>
+                </div>
+                <div class="col-md-4 mb-3 text-left">
+                    <h5>Contact me</h5>
+                    <div class="divider"></div>
+                    <p>malikshahida534@gmail.com<br>+92 317 3141585<br>+92 312 3027790</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center"><h1>Subscribe</h1>
+                    <form class="d-flex">
+                        <input type="email" class="form-control" placeholder="Email address">
+                        <button type="submit" class="subscribe-btn ms-2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-4 p-0">
+                <div class="col-12 text-center">
+                    <p class="credit">Copyright ©2020. All rights reserved | This template is made with <span style="color: #e94560;">❤</span> by <a href="#">Mehjabeenfatima</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer End -->
+    <script>
+
+        $(document).ready(function(){
+        
+        let scroll_link = $('.scroll');
+        
+         //smooth scrolling -----------------------
+         scroll_link.click(function(e){
+        
+             e.preventDefault();
+             let url = $('body').find($(this).attr('href')).offset().top;
+             
+             $('html, body').animate({
+               scrollTop : url
+             },1000);
+             
+             $(this).parent().addClass('active');
+             $(this).parent().siblings().removeClass('active');
+             return false;	
+             
+          });
+         
+        });
+        
+        
+        </script>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="jquery-3.6.4.min.js"></script>
+<script src="https://kit.fontawesome.com/89499e4ced.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
+
+  <!-- Bootstrap JS (including Popper) -->
+  
